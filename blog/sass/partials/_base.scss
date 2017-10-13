@@ -1,0 +1,51 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-family: $text;
+	background: repeat url("../img/dots.png");
+	color: #000;
+}
+
+section {
+	padding: 0 $box-l;
+	margin-top: $box-l;
+}
+
+a {
+	color: $accent;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+button {
+	padding: 10px 15px;
+	border: 2px solid $accent;
+	transition: all .3s;
+	color: $accent;
+	border-radius: 3px;
+	background-color: transparent;
+}
+
+button:hover {
+	background-color: $accent;
+	color: #fff;
+}
+
+p {
+	margin-bottom: $el-s; 
+}
+
+img {
+	margin: $el-s 0;
+}
+
+ul, ol {
+	margin: $el-s 0;
+}

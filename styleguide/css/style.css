@@ -1,0 +1,105 @@
+* {
+  margin: 0;
+  padding: 0; }
+
+body {
+  font-family: "Quicksand", sans-serif; }
+
+section {
+  padding: 0 72px;
+  margin-top: 72px; }
+
+a {
+  color: #4B6ED9;
+  text-decoration: none; }
+
+a:after {
+  content: "";
+  display: block;
+  width: 0px;
+  height: 2px;
+  background-color: #4B6ED9;
+  transition: all .3s; }
+
+a:hover:after {
+  width: 100px; }
+
+button {
+  padding: 10px 15px;
+  border: 2px solid #4B6ED9;
+  transition: all .3s;
+  color: #4B6ED9;
+  border-radius: 3px;
+  background-color: transparent; }
+
+button:hover {
+  background-color: #4B6ED9;
+  color: #fff; }
+
+h1, h2, h3, h4 {
+  font-family: "Yanone Kaffeesatz", sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 5px; }
+
+h1 {
+  color: #FFFC2C;
+  font-size: 3rem;
+  margin-bottom: 36px; }
+
+h2 {
+  font-size: 2.5rem;
+  margin-bottom: 24px; }
+
+h3 {
+  font-size: 1.8rem;
+  margin-bottom: 12px; }
+
+.color-block {
+  width: 200px;
+  height: 200px;
+  display: inline-block; }
+
+.color1 {
+  background-color: #000; }
+
+.color2 {
+  background-color: #1F1F1F; }
+
+.color3 {
+  background-color: #4B6ED9; }
+
+.color4 {
+  background-color: #FFFC2C; }
+
+.color5 {
+  background-color: #D6D6D6; }
+
+.margin {
+  margin-top: 36px; }
+
+.m-box-wrapper {
+  padding: 48px;
+  -webkit-box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.5);
+  -moz-box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.5);
+  box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.5); }
+
+.m-box-content {
+  display: inline-block;
+  width: 80%;
+  margin-left: 24px;
+  vertical-align: top; }
+
+.m-box-img {
+  width: 15%;
+  height: auto;
+  display: inline-block; }
+
+header, footer {
+  background: repeat url("../img/use_your_illusion.png");
+  padding: 72px 0;
+  color: #fff; }
+
+header {
+  text-align: center; }
+
+/*# sourceMappingURL=style.css.map */

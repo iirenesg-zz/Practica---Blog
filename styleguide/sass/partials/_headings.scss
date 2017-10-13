@@ -1,0 +1,21 @@
+h1, h2, h3, h4 {
+	font-family: $title;
+	text-transform: uppercase;
+	letter-spacing: 5px; 
+}
+
+h1 {
+	color: $primary;
+	font-size: 3rem;
+	margin-bottom: $el-l;
+}
+
+h2 {
+	font-size: 2.5rem;
+	margin-bottom: $el-m;
+}
+
+h3 {
+	font-size: 1.8rem;
+	margin-bottom: $el-s;
+}

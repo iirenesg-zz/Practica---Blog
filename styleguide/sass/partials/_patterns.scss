@@ -1,0 +1,29 @@
+.color-block {
+	width: 200px;
+	height: 200px;
+	display: inline-block;	
+}
+
+.color1 {
+	background-color: #000;
+}
+
+.color2 {
+	background-color: $dark;
+}
+
+.color3 {
+	background-color: $accent;
+}
+
+.color4 {
+	background-color: $primary;
+}
+
+.color5 {
+	background-color: $light;
+}
+
+.margin {
+	margin-top: $el-l;
+}
