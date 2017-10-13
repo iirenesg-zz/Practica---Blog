@@ -1,0 +1,45 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-family: $text;
+}
+
+section {
+	padding: 0 $box-l;
+	margin-top: $box-l;
+}
+
+a {
+	color: $accent;
+	text-decoration: none;
+}
+
+a:after {
+	content: "";
+	display: block;
+	width: 0px;
+	height: 2px;
+	background-color: $accent;
+	transition: all .3s;
+}
+
+a:hover:after {
+	width: 100px;
+}
+
+button {
+	padding: 10px 15px;
+	border: 2px solid $accent;
+	transition: all .3s;
+	color: $accent;
+	border-radius: 3px;
+	background-color: transparent;
+}
+
+button:hover {
+	background-color: $accent;
+	color: #fff;
+}
