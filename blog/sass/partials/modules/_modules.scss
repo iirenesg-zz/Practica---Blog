@@ -1,0 +1,19 @@
+.m-box-wrapper {
+	padding: $box-m;
+	-webkit-box-shadow: 0px 0px 15px 0px rgba(0,0,0,0.5);
+	-moz-box-shadow: 0px 0px 15px 0px rgba(0,0,0,0.5);
+	box-shadow: 0px 0px 15px 0px rgba(0,0,0,0.5);
+}
+
+.m-box-content {
+	display: inline-block;
+	width: 80%;
+	margin-left: $el-m;
+	vertical-align: top;
+}
+
+.m-box-img {
+	width: 15%;
+	height: auto;
+	display: inline-block;
+}

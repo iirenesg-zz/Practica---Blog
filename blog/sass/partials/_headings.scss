@@ -1,0 +1,32 @@
+h1, h2, h3, h4 {
+	font-family: $title;
+	text-transform: uppercase;
+}
+
+h1, h2 {
+	letter-spacing: 5px; 
+}
+
+h3, h4 {
+	letter-spacing: 2.5px; 
+	margin-top: $el-m;
+}
+
+h1 {
+	font-size: 2.5rem;
+}
+
+h2 {
+	font-size: 2rem;
+	margin-bottom: $el-s;
+}
+
+h3 {
+	font-size: 1.5rem;
+	margin-bottom: $el-s;
+}
+
+h4 {
+	font-size: 1.1rem;
+	margin-bottom: $el-s;
+}

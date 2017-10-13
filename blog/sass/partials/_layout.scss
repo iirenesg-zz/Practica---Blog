@@ -1,0 +1,20 @@
+header, footer {
+	padding: $box-m 0;
+}
+
+header {	
+	position: relative;
+	text-align: center;
+	background-color: $accent;
+	color: #fff;
+	-webkit-box-shadow: 0px 0px 15px 0px rgba(0,0,0,0.5);
+	-moz-box-shadow: 0px 0px 15px 0px rgba(0,0,0,0.5);
+	box-shadow: 0px 0px 15px 0px rgba(0,0,0,0.5);
+}
+
+footer {
+	background-color: $dark;
+	color: #fff;
+	text-align: center;
+}
+
