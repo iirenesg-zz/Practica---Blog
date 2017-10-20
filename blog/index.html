@@ -20,8 +20,16 @@
 			</ul>
 		</nav>
 
-		<section class="ad-wrapper">
-			<img class="ad-img" src="img/ad2.jpg" alt="">
+		<main>
+
+		<section class="ad-wrapper-side">
+			<picture class="ad-img">
+				<source media="(min-width: 1200px)" srcset="img/ad1-1200w.jpg">
+				<source media="(min-width: 800px)" srcset="img/ad1-800w.jpg">
+				<source media="(min-width: 480px)" srcset="img/ad1-480w.jpg">
+				<source media="(min-width: 320px)" srcset="img/ad1-320w.jpg">  
+			  	<img src="img/ad1-480w.jpg" alt="Ad">
+			</picture>
 		</section>
 		
 		<section class="post-wrapper">
@@ -30,7 +38,7 @@
 				<div class="post-content">
 					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odit exercitationem in numquam accusamus cumque et animi dolor fugiat ipsa rerum aliquam nisi non facilis, asperiores aliquid deserunt distinctio dolore voluptatibus?</p>
 					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iste, aliquam quo minus distinctio odit, eligendi odio amet expedita error beatae et illum nesciunt ipsum? Quos nobis sequi quod voluptatum perspiciatis.</p>
-					<img class="post-img" src="img/placeholder.png" alt="">
+					<img class="post-img" srcset="img/placeholder-320w.png 320w, img/placeholder-480w.png 480w, img/placeholder-800w.png 800w, img/placeholder-1200w.png 1200w" sizes="(min-width: 320px) 280px, (min-width: 480px) 440px, (min-width: 800px) 720px, 1080px" src="placeholder-800w.jpg" alt="Placeholder">
 					<h3>Subtitle</h3>
 					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium modi, hic, ullam id itaque doloribus harum nobis illo saepe aliquid nesciunt, ratione rerum enim velit porro consequatur autem eligendi placeat!</p>
 					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptas architecto corrupti, fuga at repellat hic nemo, ex dolore eius tempore doloribus sunt illo quo ab, dolorem nulla molestiae, quae delectus!</p>
@@ -52,7 +60,7 @@
 
 			<div class="post-info">
 				<div class="author-info">
-					<img class="author-img" src="img/placeholder.png" alt="">
+					<img class="author-img" src="img/placeholder-thumbnail.png" alt="">
 					<h3 class="post-author">Author name</h3>
 					<a href="#" class="author-email">email@gmail.com</a>
 				</div>
@@ -60,22 +68,24 @@
 			</div>
 		</section>
 
+		</main>
+
 		<section class="highlight-article-wrapper">
 			<h2>Artículos relacionados</h2>
 			<div class="highlight-article">
-				<img class="highlight-img" src="img/placeholder.png" alt="">
+				<img class="highlight-img" srcset="img/placeholder-320w.png 320w, img/placeholder-480w.png 480w, img/placeholder-800w.png 800w" sizes="(min-width: 320px) 280px, (min-width: 480px) 440px, 800px" src="placeholder-800w.jpg" alt="Placeholder">
 				<h3 class="highlight-title">Title</h3>
 				<small class="highlight-date">29 set, 2017</small>
 				<p class="highlight-prev">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi, odio? Quis quibusdam vero, labore cum rem aperiam officia praesentium. Possimus assumenda cupiditate, cumque doloremque nam, ratione sed ut non maiores?</p>
 			</div>
 			<div class="highlight-article">
-				<img class="highlight-img" src="img/placeholder.png" alt="">
+				<img class="highlight-img" srcset="img/placeholder-320w.png 320w, img/placeholder-480w.png 480w, img/placeholder-800w.png 800w" sizes="(min-width: 320px) 280px, (min-width: 480px) 440px, 800px" src="placeholder-800w.jpg" alt="Placeholder">
 				<h3 class="highlight-title">Title</h3>
 				<small class="highlight-date">29 set, 2017</small>
 				<p class="highlight-prev">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum quibusdam blanditiis, ad provident libero temporibus laboriosam distinctio explicabo molestiae neque laborum officia, nisi saepe, quisquam labore vel ducimus corporis ab.</p>
 			</div>
 			<div class="highlight-article">
-				<img class="highlight-img" src="img/placeholder.png" alt="">
+				<img class="highlight-img" srcset="img/placeholder-320w.png 320w, img/placeholder-480w.png 480w, img/placeholder-800w.png 800w" sizes="(min-width: 320px) 280px, (min-width: 480px) 440px, 800px" src="placeholder-800w.jpg" alt="Placeholder">
 				<h3 class="highlight-title">Title</h3>
 				<small class="highlight-date">29 set, 2017</small>
 				<p class="highlight-prev">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Possimus sit, eaque laboriosam dolore, similique magnam asperiores, repudiandae repellat autem dolores ut delectus aspernatur illum ad. Aut labore minus magni a.</p>
@@ -83,7 +93,13 @@
 		</section>
 
 		<section class="ad-wrapper">
-			<img class="ad-img" src="img/ad1.jpeg" alt="">
+			<picture class="ad-img">
+				<source media="(min-width: 1200px)" srcset="img/ad2-1200w.jpg">
+				<source media="(min-width: 800px)" srcset="img/ad2-800w.jpg">
+				<source media="(min-width: 480px)" srcset="img/ad1-480w.jpg">
+				<source media="(min-width: 320px)" srcset="img/ad1-320w.jpg">  
+			  	<img src="img/ad2-800w.jpg" alt="Ad">
+			</picture>
 		</section>
 
 		<footer>

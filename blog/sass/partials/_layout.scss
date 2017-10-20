@@ -18,3 +18,14 @@ footer {
 	text-align: center;
 }
 
+main {
+	width: 80%;
+	max-width: 1200px;
+	margin: 0 auto;
+
+	@media screen and (min-width: 800px) {
+		display: grid;
+		grid-template-columns: 80% 20%;
+		grid-template-rows: 1fr;	
+	}
+}

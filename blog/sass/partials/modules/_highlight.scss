@@ -1,7 +1,32 @@
+.highlight-article-wrapper {
+	max-width: 1200px;
+	margin: 0 auto;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+
+	h2 {
+		display: block;
+		width: 100%;
+		flex: none;
+		text-align: center;
+	}
+}
+
 .highlight-article {
+	width: 100%;
 	margin-bottom: $box-m;
 	border-bottom: 2px solid;
 	padding-bottom: $box-m;
+
+	@media screen and (min-width: 500px) {
+		width: 47%;
+		border: none;
+	}
+
+	@media screen and (min-width: 800px) {
+		width: 30%;
+	}
 }
 
 .highlight-article-wrapper div:last-child {
